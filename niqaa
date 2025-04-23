@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>نقاء | الصحة النفسية</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #fdfaf4; /* بيج فاتح */
+      color: #2e4e3f;
+    }
+    header {
+      background: #c9e4ca; /* أخضر فاتح */
+      padding: 20px;
+      text-align: center;
+      color: #2e4e3f;
+    }
+    nav {
+      background: #f3eacb; /* بيج */
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      margin: 10px;
+      color: #2e4e3f;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .content {
+      padding: 20px;
+    }
+    footer {
+      background: #c9e4ca; /* أخضر فاتح */
+      color: #2e4e3f;
+      text-align: center;
+      padding: 10px;
+    }
+
+    @media (max-width: 600px) {
+      nav a {
+        display: block;
+        margin: 5px 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>نقاء</h1>
+    <p>منصة توعوية للصحة النفسية</p>
+  </header>
+
+  <nav>
+    <a href="#about">عن نقاء</a>
+    <a href="#tips">نصائح نفسية</a>
+    <a href="#contact">تواصل معنا</a>
+  </nav>
+
+  <div class="content">
+    <section id="about">
+      <h2>عن نقاء</h2>
+      <p>
+        "نقاء" هو موقع يهتم بنشر الوعي حول الصحة النفسية، ويهدف إلى دعم الأفراد وتشجيعهم على الاهتمام بصحتهم النفسية.
+      </p>
+    </section>
+
+    <section id="tips">
+      <h2>نصائح لتحسين الصحة النفسية</h2>
+      <ul>
+        <li>خذ وقتًا للراحة والاسترخاء يوميًا.</li>
+        <li>تحدث مع شخص تثق به عند الشعور بالضيق.</li>
+        <li>مارس الرياضة بانتظام لتحسين المزاج.</li>
+        <li>نم جيدًا وتجنب السهر الطويل.</li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2>تواصل معنا</h2>
+      <p>لأي استفسار أو دعم، يمكنك مراسلتنا على: <strong>support@niqaa.com</strong></p>
+    </section>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 نقاء. جميع الحقوق محفوظة.</p>
+  </footer>
+</body>
+</html>
